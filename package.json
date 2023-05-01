@@ -1,0 +1,28 @@
+{
+  "name": "dev-camper",
+  "version": "1.0.0",
+  "description": "Devcamper Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_ENV=production node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilwankhede98/dev-camper.git"
+  },
+  "author": "Nikhil Wankhede",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nikhilwankhede98/dev-camper/issues"
+  },
+  "homepage": "https://github.com/nikhilwankhede98/dev-camper#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
